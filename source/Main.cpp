@@ -1,6 +1,6 @@
 #include <GLFW/glfw3.h>
 
-int main (void)
+int main (int argc, char* argv[])
 {
 	GLFWwindow* window;
 	
@@ -18,7 +18,6 @@ int main (void)
 	
 	while (!glfwWindowShouldClose (window))
 	{
-	
 		glfwSwapBuffers (window);
 		
 		glfwPollEvents ();
